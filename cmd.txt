@@ -1,0 +1,2 @@
+python segment/train.py  --weights yolov5l-seg.pt  --data F:\BaiduNetdiskDownload\c\dataset.yaml --epoch 200 --batch-size 16
+ python detect.py --weights runs/train-seg/exp22/weights/best.pt --source  F:\BaiduNetdiskDownload\c   --conf-thres 0.015 --classes 1
